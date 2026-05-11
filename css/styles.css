@@ -1896,3 +1896,51 @@ ul {
   }
 }
 
+@media (max-width: 360.0px) {
+  
+  .about {
+    margin-top: -20vh;
+    padding-top: 1rem;
+    min-height: calc(70vh + 0px);
+  }
+  
+  .carousel__slide--current {
+    transform: scale(0.75);
+  }
+
+  .about__card--visible {
+    transform: translateY(32%);
+  }
+
+  .products__heading {
+    text-align: center;
+    padding: 0px 16px;
+    margin-bottom: -55px;
+}
+
+  .carousel__viewport {
+    overflow: hidden;
+    cursor: grab;
+    user-select: none;
+    padding: 0px 0;
+}
+
+  .about__card {
+    padding: 32px 16px;
+  }
+
+  .about__card-text,
+  .about__card-list {
+    font-size: 0.95rem;
+  }
+
+  .contact__info {
+    width: 100%;
+  }
+
+  .form__submit {
+    font-size: 0.75em;
+  }
+
+}
+
