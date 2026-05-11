@@ -1901,7 +1901,7 @@ ul {
   .about {
     margin-top: -20vh;
     padding-top: 1rem;
-    min-height: calc(70vh + 0px);
+    min-height: calc(100vh + 0px);
   }
   
   .carousel__slide--current {
@@ -1909,7 +1909,7 @@ ul {
   }
 
   .about__card--visible {
-    transform: translateY(32%);
+    transform: translateY(25%);
   }
 
   .products__heading {
