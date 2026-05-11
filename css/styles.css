@@ -1903,6 +1903,10 @@ ul {
     padding-top: 1rem;
     min-height: calc(110vh + 0px);
   }
+
+   .carousel__slide {
+    flex: 0 0 125vw;
+   }
   
   .carousel__slide--current {
     transform: scale(0.75);
